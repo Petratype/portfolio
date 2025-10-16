@@ -3,7 +3,7 @@
 Welcome to my personal portfolio! 
 A space to showcase my coding experiments and projects.  
 
-I build small projects using **Python** and **JavaScript**, applying what I’m learning and gradually developing each idea. These projects are works-in-progress exercises aimed at improving my skills. This portfolio provides a single, accessible place for anyone — including potential employers — to explore them.
+I build small projects using **Python** and **JavaScript**, applying what I’m learning and gradually developing each idea. These projects are works-in-progress exercises aimed at improving my skills. This portfolio provides a single, accessible place for anyone, including potential employers, to explore them.
 
 ---
 
@@ -33,7 +33,7 @@ Terminal-based fireworks made with Python and Pygame. Press Enter to trigger the
 ---
 
 ## 🖤 About Me
-I’m Petra, a creative junior coder exploring the overlap between **tech, art and functionality**.  
+I’m Petra, a creative coder exploring the overlap between **tech, art and functionality**.  
 
 I focus on building interactive experiences and web applications that align with skills sought in the job market, while continually refining my coding abilities. My portfolio showcases these ongoing projects, demonstrating both my current skills and my growth as a developer.
 
