@@ -41,7 +41,7 @@ I focus on building interactive experiences and web applications that align with
 
 ## 🔗 Links
 - GitHub: [@Petratype](https://github.com/Petratype)
-- Email: petra.ferreyra@hotmail.com*
+- Email: petra.ferreyra@hotmail.com
 - LinkedIn Profile: [View here](https://www.linkedin.com/in/petra-ferreyra-043ab4274)
 - Notion Portfolio: [View here](https://accurate-flower-2a4.notion.site/PetraType-Portfolio-28e3f21ba60f807ab683f07e203c9433?pvs=143)
 
