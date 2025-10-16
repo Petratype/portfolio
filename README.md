@@ -8,28 +8,27 @@ I build small projects using **Python** and **JavaScript**, applying what I’m 
 ---
 
 ## 🌐 Live Portfolio
-Explore my projects and ongoing work online:  
-[💻 Visit PetraType Portfolio](https://Petratype.github.io/portfolio/)
+Check out my [portfolio](https://Petratype.github.io/portfolio/) online.
 
 
 ---
 
 ## 🧩 Featured Projects
 
-### [Tamagothchi](https://github.com/Petratype/tamagothchi)
+### [Tamagothchi](https://petratype.github.io/tamagothchi)
 A virtual pet game where you can feed, play with, and maintain your ghostly companion online.
 
-### [Fortune Teller App](https://github.com/Petratype/fortune-teller)
+### [Fortune Teller App](https://petratype.github.io/fortune-teller)
 A simple web app that delivers random fortunes in two modes: “deep” and “silly”.
 
-### [Firework Simulator](https://github.com/Petratype/firework-simulator)
-Terminal-based fireworks simulator built with Python and Pygame. Press Enter to trigger the display.
+### [Random Music × Art](https://petratype.github.io/art-meets-music-api)
+An API project pairing artworks from the Chicago Institute with random music tracks 🎨🎧
 
-### [Random Music × Art](https://github.com/Petratype/music-art-api)
-An API project that pairs artworks from the Chicago Institute with random music tracks.
-
-### [Ghostbot](https://github.com/Petratype/ghostbot-web)
+### [Ghostbot](https://petratype.github.io/ghostbot-web)
 A chatbot designed to interact with users and simulate scanning for paranormal activity.
+
+### [Firework Simulator](https://github.com/Petratype/firework-simulator)
+Terminal-based fireworks made with Python and Pygame. Press Enter to trigger the display.
 
 ---
 
