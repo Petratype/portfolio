@@ -16,7 +16,7 @@ Check out my [portfolio](https://Petratype.github.io/portfolio/) online.
 ## 🧩 Featured Projects
 
 ### [Tamagothchi](https://petratype.github.io/tamagothchi)
-A virtual pet game where you can feed, play with, and maintain your ghostly companion online.
+A virtual pet game where you can feed, play with and maintain your ghostly companion online.
 
 ### [Fortune Teller App](https://petratype.github.io/fortune-teller)
 A simple web app that delivers random fortunes in two modes: “deep” and “silly”.
