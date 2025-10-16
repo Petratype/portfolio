@@ -7,6 +7,13 @@ I build small projects using **Python** and **JavaScript**, applying what I’m 
 
 ---
 
+## 🌐 Live Portfolio
+Explore my projects and ongoing work online:  
+[💻 Visit PetraType Portfolio](https://Petratype.github.io/portfolio/)
+
+
+---
+
 ## 🧩 Featured Projects
 
 ### [Tamagothchi](https://github.com/Petratype/tamagothchi)
