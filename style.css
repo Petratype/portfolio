@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Mono&display=swap');
+
+/* ===== Base styles ===== */
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.8);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  color: #5ac8fa;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #5ac8fa;
+}
+
+#mode-buttons button {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #5ac8fa;
+  border-radius: 5px;
+  background: transparent;
+  color: #5ac8fa;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#mode-buttons button:hover {
+  background: #5ac8fa;
+  color: inherit;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  color: #555;
+}
+
+#projects {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+.card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+.card a {
+  display: inline-block;
+  margin: 0.3rem 0.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.card a:hover {
+  color: #5ac8fa;
+}
+
+#about, #contact {
+  padding: 3rem 1rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+#contact li {
+  margin: 0.5rem 0;
+}
+#contact a {
+  text-decoration: none;
+  color: #5ac8fa;
+}
+#contact a:hover {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* ===== Modes ===== */
+
+/* Light Mode */
+body.clean-light {
+  background: #fdf8f2;
+  color: #111;
+}
+body.clean-light .card {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Dark Mode */
+body.clean-dark {
+  background: #1b1b1b;
+  color: #f2f2f2;
+}
+body.clean-dark .card {
+  background: #2a2a2a;
+  border: 1px solid #444;
+}
+
+/* Spooky Mode */
+body.spooky {
+  --accent: #9c00ff;
+  background: #0d0d0f;
+  color: #f2f2f2;
+}
+body.spooky .card {
+  background: #1a1a1d;
+  border: 1px solid rgba(255,255,255,0.1);
+}
