@@ -1,38 +1,35 @@
 # 👻 PetraType Portfolio
 
-Welcome to my personal portfolio — a space for all my playful and creative code experiments.
+Welcome to my personal portfolio! 
+A space to showcase my coding experiments and projects.  
 
-I like building weird, tiny things that mix **Python**, **JavaScript**, and a bit of atmosphere to make it fun and personalized.  
-Every project below reflects something I wanted to learn, feel or summon 🕯️✨
-Looking forward to apply on a professional experience.  
+I build small projects using **Python** and **JavaScript**, applying what I’m learning and gradually developing each idea. These projects are works-in-progress exercises aimed at improving my skills. This portfolio provides a single, accessible place for anyone — including potential employers — to explore them.
 
 ---
 
 ## 🧩 Featured Projects
 
 ### [Tamagothchi](https://github.com/Petratype/tamagothchi)
-A gothic virtual pet game. Feed it, play with it and keep your ghostly companion happy online.
+A virtual pet game where you can feed, play with, and maintain your ghostly companion online.
 
 ### [Fortune Teller App](https://github.com/Petratype/fortune-teller)
-A playful fortune-telling web app with “deep” and “silly” modes. Very simple. Tap for your fate 🔮
+A simple web app that delivers random fortunes in two modes: “deep” and “silly”.
 
 ### [Firework Simulator](https://github.com/Petratype/firework-simulator)
-Simple fireworks in the terminal, made with Python and Pygame. Just an experiment. Press Enter and enjoy the character spark 🎆
+Terminal-based fireworks simulator built with Python and Pygame. Press Enter to trigger the display.
 
 ### [Random Music × Art](https://github.com/Petratype/music-art-api)
-An API-based project that pairs random Chicago Institute artworks with equally random music tracks 🎨🎧
+An API project that pairs artworks from the Chicago Institute with random music tracks.
 
 ### [Ghostbot](https://github.com/Petratype/ghostbot-web)
-A haunted chatbot that scans your home for paranormal activity and cleanses your space from bad vibes 💀
+A chatbot designed to interact with users and simulate scanning for paranormal activity.
 
 ---
 
 ## 🖤 About Me
-I’m Petra — a creative junior coder exploring the overlap between **tech, art, and functionality**.  
+I’m Petra, a creative junior coder exploring the overlap between **tech, art and functionality**.  
 
-Right now I’m learning Data Science and web development. I develop small, simple projects that can grow in complexity as I continue learning. While studying, I focus on creating interactive experiences and web applications that align with the skills and tools sought in the job market, such as chatbots, web pages, and small games. My portfolio showcases the projects I’m currently working on, serving as a single, accessible place for people — and potential employers — to explore them. These projects are works-in-progress, exercises to develop my coding skills, and I continually refine and expand them over time.
-
-
+I focus on building interactive experiences and web applications that align with skills sought in the job market, while continually refining my coding abilities. My portfolio showcases these ongoing projects, demonstrating both my current skills and my growth as a developer.
 
 ---
 
@@ -43,4 +40,4 @@ Right now I’m learning Data Science and web development. I develop small, simp
 
 ---
 
-🕯️ *Crafted with code, coffee, and curiosity.*
+🕯️ *Crafted with code, coffee and curiosity.*
