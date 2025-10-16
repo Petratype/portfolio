@@ -42,7 +42,7 @@ I focus on building interactive experiences and web applications that align with
 ## 🔗 Links
 - GitHub: [@Petratype](https://github.com/Petratype)
 - Email: petra.ferreyra@hotmail.com*
-- Notion portfolio (coming soon)
+- Notion Portfolio: [View here](https://www.notion.so/YourPageName-abcdef1234567890)
 
 ---
 
