@@ -10,11 +10,52 @@ buttons.forEach(btn => {
 
 // Glow effect only for spooky mode
 document.addEventListener('mousemove', e => {
-  if(body.classList.contains('spooky')) {
+  if (body.classList.contains('spooky')) {
     document.body.style.background = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, rgba(156,0,255,0.05), #0d0d0f 80%)`;
-  } else if(body.classList.contains('clean-light')) {
-    document.body.style.background = "#fdf8f2";
-  } else if(body.classList.contains('clean-dark')) {
-    document.body.style.background = "#1b1b1b";
+  } else {
+    // Let CSS define backgrounds for light/dark; clear any inline overrides
+    document.body.style.background = '';
   }
 });
+
+// Navigation highlighting based on scroll position
+const navLinks = document.querySelectorAll('.header-nav a');
+const sections = document.querySelectorAll('section[id]');
+
+function highlightNavigation() {
+  let current = '';
+  
+  // Check if we're near the bottom of the page
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const documentHeight = document.documentElement.scrollHeight;
+  
+  // If we're within 150px of the bottom, highlight contact
+  if (scrollPosition >= documentHeight - 150) {
+    current = 'contact';
+  } else {
+    // Otherwise, check sections normally with better detection
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      const sectionBottom = sectionTop + sectionHeight;
+      
+      // Check if we're in the middle portion of the section
+      if (window.scrollY >= (sectionTop - 100) && window.scrollY < (sectionBottom - 200)) {
+        current = section.getAttribute('id');
+      }
+    });
+  }
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === `#${current}`) {
+      link.classList.add('active');
+    }
+  });
+}
+
+// Listen for scroll events
+window.addEventListener('scroll', highlightNavigation);
+
+// Highlight on page load
+document.addEventListener('DOMContentLoaded', highlightNavigation);
