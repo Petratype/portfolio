@@ -1,17 +1,26 @@
 const buttons = document.querySelectorAll('#mode-buttons button');
 const body = document.body;
 
+// Create audio element for spooky sound
+const spookySound = new Audio('sound-effects/spooky-mode-open.mp3');
+
 buttons.forEach(btn => {
   btn.addEventListener('click', () => {
     body.classList.remove('clean-light', 'clean-dark', 'spooky');
     body.classList.add(btn.dataset.mode);
+    
+    // Play sound effect for spooky mode
+    if (btn.dataset.mode === 'spooky') {
+      spookySound.currentTime = 0; // Reset to beginning
+      spookySound.play().catch(e => console.log('Audio play failed:', e));
+    }
   });
 });
 
 // Glow effect only for spooky mode
 document.addEventListener('mousemove', e => {
   if (body.classList.contains('spooky')) {
-    document.body.style.background = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, rgba(156,0,255,0.05), #0d0d0f 80%)`;
+    document.body.style.background = `radial-gradient(circle at ${e.clientX}px ${e.clientY}px, rgba(13,0,18,0.8), #0D0012 60%)`;
   } else {
     // Let CSS define backgrounds for light/dark; clear any inline overrides
     document.body.style.background = '';

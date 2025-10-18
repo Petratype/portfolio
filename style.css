@@ -236,10 +236,21 @@ header {
 }
 .project-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: center;
   margin-top: 0.5rem;
 }
+
+.project-separator {
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+/* Theme-specific dot colors */
+body.clean-light .project-separator { color: #333; }
+body.clean-dark .project-separator { color: #b8b8b8; }
+body.spooky .project-separator { color: #f2f2f2; }
 .project-links a { 
   text-decoration: none; 
   font-weight: 500; 
@@ -256,6 +267,14 @@ header {
   color: #333;
   text-decoration: none;
 }
+
+/* Theme-specific hover colors */
+body.clean-dark .project-links a:hover { color: #e8e8e8; }
+body.spooky .project-links a:hover { color: #a855f7; }
+
+/* Contact links hover colors */
+body.clean-dark #contact a:hover { color: #e8e8e8; }
+body.spooky #contact a:hover { color: #a855f7; }
 .project-links a::before {
   content: '→';
   margin-right: 0.3rem;
@@ -366,13 +385,18 @@ body.clean-dark .project-item h3 { color: #e8e8e8; }
 
 /* Spooky theme */
 body.spooky {
-  --accent: #9c00ff;
-  background: #0d0d0f;
+  --accent: #4E1764;
+  background: #0D0012;
   color: #f2f2f2;
 }
 body.spooky header { background: rgba(10,10,12,0.75); border-bottom-color: rgba(255,255,255,0.04); }
 body.spooky .card { background: #111114; border: 1px solid rgba(255,255,255,0.04); }
 body.spooky .project-item h3 { color: #f0f0f0; }
+body.spooky .hero h2 { font-family: 'Cinzel', serif; font-weight: 600; }
+body.spooky #projects h2,
+body.spooky #about h2,
+body.spooky #contact h2 { font-family: 'Cinzel', serif; font-weight: 600; color: #d0d0d0; }
+body.spooky .project-item h3 { font-family: 'Cinzel', serif; font-weight: 600; }
 
 header h1, .brand h1, .card a, #mode-buttons button { color: var(--accent); border-color: var(--accent); }
 
