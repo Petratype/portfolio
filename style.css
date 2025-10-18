@@ -99,9 +99,9 @@ header {
   text-decoration: none;
   color: inherit;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0.3rem 0.5rem;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Playfair Display', serif;
   transition: all 0.2s ease;
   position: relative;
 }
@@ -179,6 +179,15 @@ header {
   margin: 0 0 1.4rem 0;
   text-align: left;
 }
+
+.projects-intro {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.6;
+  color: #555;
+  margin: 0 0 2.5rem 0;
+  font-size: 0.95rem;
+  max-width: 600px;
+}
 #projects::after {
   content: '';
   display: block;
@@ -217,7 +226,7 @@ header {
   font-size: 1.2rem; 
   font-weight: 600;
   color: #222;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Playfair Display', serif;
 }
 .project-item p { 
   margin: 0 0 1rem 0; 
@@ -327,7 +336,7 @@ body.clean-light {
   --accent: #a774a7;
   --separator: rgba(0,0,0,0.08);
   --hover-tint: rgba(0,0,0,0.03);
-  background: #faf7f5;
+  background: #f8f5f2;
   color: #222;
 }
 body.clean-light .card { background: #fff; border: 1px solid #eee; }
@@ -338,6 +347,9 @@ body.clean-light .hero::after {
 }
 body.clean-light .hero h2 { color: #3d2a1f; }
 body.clean-light .hero p { color: #6b4e3d; }
+body.clean-light #projects h2,
+body.clean-light #about h2,
+body.clean-light #contact h2 { color: #5d4037; }
 
 /* Dark theme */
 body.clean-dark {
@@ -350,6 +362,7 @@ body.clean-dark {
 body.clean-dark header { background: rgba(14,14,16,0.85); border-bottom-color: rgba(255,255,255,0.06); }
 body.clean-dark .card { background: #151516; border: 1px solid rgba(255,255,255,0.06); }
 body.clean-dark nav a { color: #d6d6d6; }
+body.clean-dark .project-item h3 { color: #e8e8e8; }
 
 /* Spooky theme */
 body.spooky {
@@ -359,6 +372,7 @@ body.spooky {
 }
 body.spooky header { background: rgba(10,10,12,0.75); border-bottom-color: rgba(255,255,255,0.04); }
 body.spooky .card { background: #111114; border: 1px solid rgba(255,255,255,0.04); }
+body.spooky .project-item h3 { color: #f0f0f0; }
 
 header h1, .brand h1, .card a, #mode-buttons button { color: var(--accent); border-color: var(--accent); }
 
@@ -404,5 +418,26 @@ header h1, .brand h1, .card a, #mode-buttons button { color: var(--accent); bord
 }
 
 img { max-width: 100%; display: block; }
+
+.section-separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.separator-icon {
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  display: block;
+}
+
+.separator-icon:hover {
+  opacity: 1;
+}
 
 a:focus, button:focus { outline: 2px dashed rgba(90,200,250,0.35); outline-offset: 2px; }
