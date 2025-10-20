@@ -30,6 +30,10 @@ A chatbot designed to interact with users and simulate scanning for paranormal a
 ### [Firework Simulator](https://github.com/Petratype/firework-simulator)
 Terminal-based fireworks made with Python and Pygame. Press Enter to trigger the display.
 
+### [Norwegian Flashcards](https://petratype.github.io/norwegian-flashcards)
+An interactive web app to help learning Norwegian basics.
+
+
 ---
 
 ## 🖤 About Me
